@@ -289,19 +289,25 @@ height: 40px;
 #choixliste {
 	background:url('../images/backgroundChoixProjet.jpg');
 	width:100%;
-	height:700px;
+	height:300px;
+	position:static;
+	background-attachment:fixed;
 }
 #containerChoix {
-	margin-top: 70px;
-	margin-left:350px;
-	width:1000px;
+	margin-top: 5px;
+	margin-left:150px;
 	
 }
 
 .choix {
-	margin-right:250px;
-	margin-top:30px;
+	margin-right:50px;
+	margin-top:20px;
 	float:left;
+}
+.titreChoix {
+	position: absolute;
+	background-color:white;
+	display:none;
 }
 .choix:hover {
 	transform: translateX(-2px) translateY(-2px);
@@ -325,6 +331,46 @@ height: 40px;
 	height:500px;
 
 }
+#choixMode:hover #titreChoixMode
+{
+	display:block;
+}
+#choixMode:hover #titreChoixMode2
+{
+	display:block;
+}
+#choixRpg:hover #titreChoixRPG
+{
+	display:block;
+}
+#choixRpg:hover #titreChoixRPG2
+{
+	display:block;
+}
+#choixBlueNote:hover #titreChoixBlueNote
+{
+	display:block;
+}
+#choixBlueNote:hover #titreChoixBlueNote2
+{
+	display:block;
+}
+#choixOthelo:hover #titreChoixOthelo
+{
+	display:block;
+}
+#choixOthelo:hover #titreChoixOthelo2
+{
+	display:block;
+}
+#choixSTI:hover #titreChoixSTI
+{
+	display:block;
+}
+#choixSTI:hover #titreChoixSTI2
+{
+	display:block;
+}
 
 .pDroit{
 	float:right;
@@ -340,11 +386,11 @@ height: 40px;
 	margin-top:120px; 
 	width:400px;
 }
-#slide_ring {
+#slider{
 	float:left;
 	width:600px;
 	height:400px;
 	margin-left:100px;
 	margin-top:30px;
-	background-color:black
+
 }

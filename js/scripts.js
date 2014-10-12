@@ -57,4 +57,17 @@ $(function() {
       $('#choixOthelo').click(function() {
      $('html,body').animate({scrollTop: $("#othelo").offset().top}, 'slow'      );
    });
+      $('#choixSTI').click(function() {
+     $('html,body').animate({scrollTop: $("#sti").offset().top}, 'slow'      );
+   });
+
+      var data = [
+                'images/BlueNote1.png',
+                'images/Othelo.png',
+                'images/Capteur.png',
+                'images/mode.jpg',
+            ];
+            
+            /* Call the slider plugin with your table */
+            $('#slider').slider({imgs:data});
 });

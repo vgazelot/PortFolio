@@ -7,7 +7,7 @@
   <link rel="stylesheet" media="screen" type="text/css" title="Style" href="Css/Style.css" />
   <link rel="stylesheet" media="screen" type="text/css" title="Style" href="Css/reset.css" />
   <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="js/libs/slider/themes/defaults/style.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="js/slider/themes/defaults/style.css" type="text/css" media="screen">
 
   <!--
   <link rel="shortcut icon" href="images/icon.gif" />
@@ -56,6 +56,7 @@
 </body>
 <script type="text/javascript" src="./js/jquery.min.js"></script>
 <script type="text/javascript" src="./js/scripts.js"></script>
+<script type="text/javascript" src="./js/slider/jquery.slider.js"></script>
 <script>
   var aclicked=false;
   var element = document.getElementById('bMenu');
@@ -106,6 +107,5 @@
   }
 
 </script>
-
 
 </html>

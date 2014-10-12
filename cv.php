@@ -62,10 +62,10 @@
                             			</ul>
         			</li>
       			</ul>
-      			<ul class="UneLigne" >
+      			<ul class="UneLigne">
         			<li class ="dateCV">Base de donnée :</li>
-        			<li class ="InfoCV" ><ul>
-                           					 <li>SQL</li>
+        			<li class ="InfoCV"><ul>
+                           					 <li style="margin-top:5px">SQL</li>
                             			</ul>
        				</li>
       			</ul>
