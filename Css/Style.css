@@ -286,18 +286,44 @@ height: 40px;
 
 
 
+#choixliste {
+	background:url('../images/backgroundChoixProjet.jpg');
+	width:100%;
+	height:700px;
+}
+#containerChoix {
+	margin-top: 70px;
+	margin-left:350px;
+	width:1000px;
+	
+}
+
+.choix {
+	margin-right:250px;
+	margin-top:30px;
+	float:left;
+}
+.choix:hover {
+	transform: translateX(-2px) translateY(-2px);
+	cursor:pointer;
+	box-shadow: 7px 7px black;
+}
+#projetsliste {
+	background:url('../images/backgroundProjet.jpg');
+}
+
 #containerProjet {
 
 	position:absolute;
 	width:100%;
 	top:10%;
 }
-
 .projets{
 	box-shadow:3px 3px 3px #888888;
 	text-align:center;
 	width:100%;
 	height:500px;
+
 }
 
 .pDroit{

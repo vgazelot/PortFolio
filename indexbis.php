@@ -7,7 +7,6 @@
   <link rel="stylesheet" media="screen" type="text/css" title="Style" href="Css/Style.css" />
   <link rel="stylesheet" media="screen" type="text/css" title="Style" href="Css/reset.css" />
   <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="js/libs/slider/themes/defaults/style.css" type="text/css" media="screen">
 
   <!--
   <link rel="shortcut icon" href="images/icon.gif" />
@@ -39,7 +38,7 @@
                     </div>
                 </div>
 
-                <ul>
+                <ul id="listeRebrique">
                 
                     <li id="accueil" style="font-family:Montserrat"> <a href="index.php?p=accueil">Accueil</a> </li> 
                     <li id="cv" style="font-family:Montserrat"> <a href="index.php?p=cv">Cv</a> </li>
@@ -54,58 +53,10 @@
 <body> 
         <?php require ($p.'.php');?> 
 </body>
+
 <script type="text/javascript" src="./js/jquery.min.js"></script>
 <script type="text/javascript" src="./js/scripts.js"></script>
-<script>
-  var aclicked=false;
-  var element = document.getElementById('bMenu');
 
-  element.onclick = function() {
-    if(aclicked == false)
-    {
-    var elem=document.getElementById('accueil');
-
-    elem.style.display='inline-block';
-    elem.style.opacity='1';
-
-    elem=document.getElementById('cv');
-
-    elem.style.display='inline-block';
-    elem.style.opacity='1';
-    elem=document.getElementById('projets');
-
-    elem.style.display='inline-block';
-    elem.style.opacity='1';
-    elem=document.getElementById('Contact');
-
-    elem.style.display='inline-block';
-    elem.style.opacity='1';
-    aclicked=true;
-    }
-    else
-    {
-    var elem=document.getElementById('accueil');
-
-    elem.style.display='none';
-    elem.style.opacity='0';
-
-    elem=document.getElementById('cv');
-
-    elem.style.display='none';
-    elem.style.opacity='0';
-    elem=document.getElementById('projets');
-
-    elem.style.display='none';
-    elem.style.opacity='0';
-    elem=document.getElementById('Contact');
-
-    elem.style.display='none';
-    elem.style.opacity='0';
-    aclicked=false;
-    }
-  }
-
-</script>
 
 
 </html>

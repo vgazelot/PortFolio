@@ -20,8 +20,7 @@
 	{
 		$message = wordwrap($message, 70, "\r\n");
 		$message = str_replace("\n.", "\n..", $text);
-		$boolMail=mail($mail,$sub,$_POST['message'],$header);
-		if ($boolMail === 'true')
+		if (mail($mail,$sub,$_POST['message'],$header))
 		{
 			$mail='true';
 		}
@@ -36,9 +35,6 @@
 	
 ?>
 
-	<?php $title="Me Contacter";?>
-
-
   <div id="contactForm" style="font-family:Montserrat">
   	<h2 id="sayHello">SAY 'HELLO !' </h2>
   <form id="form"action ="#" method="POST">
@@ -49,8 +45,8 @@
 		<textarea id="Ccont" type="text" name="message" style="font-family:Montserrat" placeholder="Enter your text"><?php if (isset($_POST['message'])) echo $_POST['message']; ?></textarea>
 		<input id="submit" type="submit" value="Envoyer"/>
 	</form>
-	<?php if ($mail ='true') { echo' <p id="notifMailOK">*Mail envoyé !</p>'; }
-		else if($mail ='false') { echo '<p id="notifMailErr"> Erreur de saisie </p>';}
+	<?php if ($mail ==='true') { echo' <p id="notifMailOK">*Mail envoyé !</p>'; }
+		else if($mail ==='false') { echo '<p id="notifMailErr"> Erreur de saisie </p>';}
 ?>
 
   </div>
