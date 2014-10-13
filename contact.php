@@ -2,9 +2,9 @@
 	$dest = 'v.gazelot@gmail.com';
 	$sub = 'Mail Portfolio';
 	$header = "From: \"WeaponsB\"".$_POST['mail'];
-	$mail ='none';
+	$mailsend ='none';
 
-	if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $mail))
+	if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $_POST['mail']))
 	{
 		$passage_ligne = "\r\n";
 	}
@@ -22,11 +22,11 @@
 		$message = str_replace("\n.", "\n..", $text);
 		if (mail($mail,$sub,$_POST['message'],$header))
 		{
-			$mail='true';
+			$mailsend='true';
 		}
 		else 
 		{
-			$mail='false';
+			$mailsend='false';
 		}
 
 	}

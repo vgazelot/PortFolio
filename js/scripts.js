@@ -1,6 +1,5 @@
 $(function() {
-   /* var clicked = false;
-   $("#bMenu").click(function() {
+   $('#bMenu').click(function() {
      alert("lol");
 
     if(clicked == false)
@@ -43,7 +42,7 @@ $(function() {
         clicked=false;
     }
 
-   	});*/
+   	});
     
    $('#choixMode').click(function() {
      $('html,body').animate({scrollTop: $("#mode").offset().top}, 'slow'      );

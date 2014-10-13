@@ -57,7 +57,7 @@
 <script type="text/javascript" src="./js/jquery.min.js"></script>
 <script type="text/javascript" src="./js/scripts.js"></script>
 <script type="text/javascript" src="./js/slider/jquery.slider.js"></script>
-<script>
+<!--<script>
   var aclicked=false;
   var element = document.getElementById('bMenu');
 
@@ -107,5 +107,5 @@
   }
 
 </script>
-
+-->
 </html>
