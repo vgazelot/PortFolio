@@ -287,21 +287,21 @@ height: 40px;
 
 
 #choixliste {
-	background:url('../images/backgroundChoixProjet.jpg');
 	width:100%;
-	height:300px;
-	position:static;
-	background-attachment:fixed;
+	background:url('../images/backgroundChoixProjet.jpg');
+	height:30%;
+
+
 }
 #containerChoix {
-	margin-top: 5px;
-	margin-left:150px;
+	margin-top: 2%;
+	margin-left:5%;
+	margin-bottom:2%;
 	
 }
 
 .choix {
-	margin-right:50px;
-	margin-top:20px;
+	margin-right:3%;
 	float:left;
 }
 .titreChoix {
@@ -312,7 +312,7 @@ height: 40px;
 .choix:hover {
 	transform: translateX(-2px) translateY(-2px);
 	cursor:pointer;
-	box-shadow: 7px 7px black;
+	/*box-shadow: 7px 7px black;*/
 }
 #projetsliste {
 	background:url('../images/backgroundProjet.jpg');
@@ -325,7 +325,7 @@ height: 40px;
 	top:10%;
 }
 .projets{
-	box-shadow:3px 3px 3px #888888;
+	border-bottom:solid 3px #67008C;
 	text-align:center;
 	width:100%;
 	height:500px;
@@ -388,7 +388,7 @@ height: 40px;
 }
 #slider{
 	float:left;
-	width:600px;
+	width:500px;
 	height:400px;
 	margin-left:100px;
 	margin-top:30px;

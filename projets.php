@@ -1,6 +1,6 @@
 <div id="containerProjet" style="font-family:Montserrat;">
 		<div id="choixliste" style="padding-top:1px;">
-			<div id="containerChoix" style="padding-top:1px;">
+			<div class="clearfix" id="containerChoix">
 				<div class = "choix" id="choixMode">
 					<span class ="titreChoix" id="titreChoixMode">
 						SITE DE MODE 
@@ -11,7 +11,7 @@
 					<img src="./images/mode.jpg" alt="Photo site de mode" style="width:200px;height:200px;"/>
 				</div>
 				<div  class = "choix" id="choixRpg">
-					<img src="./images/mode.jpg" alt="Photo RPG" style="width:200px;height:200px;"/>
+					<img src="./images/TheRing1.png" alt="Photo RPG" style="width:200px;height:200px;"/>
 					<span class ="titreChoix" id="titreChoixRPG" style="position absolute; top:1%;">
 						JEUX RPG EN JAVA
 					</span>
@@ -50,7 +50,7 @@
 			</div>
 		</div>
 		<div id="projetsliste">
-			<div class="projets" id="mode" >
+			<div class="projets" id="mode">
 				<p class="pGauche">Un ami qui travail dans le domaine de la mode m'a demandé de faire la page d'accueil pour son site de mode.</br></br>
 					Ce site à était fait en HTML/CSS et aussi grâce à la librairie Jquery pour les quelques évènements comme le menu qui affichait les sous rebriques lors du passage de la sourie.
 					</br></br>Grâce à ce site, sa note à été de 18/20 :D
@@ -83,7 +83,7 @@
 				</p>
 				<img src="./images/Othelo.png" alt="Photo du jeux Ohtelo sur console" style="width:450px;height:300px; float:left; margin-left:130px; margin-top:20px; box-shadow:3px 3px 3px 3px #888888" />
 			</div>
-			<div class ="preojet" id="sti">
+			<div class ="projets" id="sti">
 				<p class ="pGauche"> Pour mon projet de BAC STI2D j'ai du réaliser un projet dont le sujet était l'ouvertur d'un hayon de voiture sans contact et sans handicaper la personne tout en respectant l'environement et la sécurité des alentours.</br></br>
 									Ma tâche à était principalement de m'occuper du capteur qui détecte un mouvement pour donner l'ordre d'ouvrir le hayon.</br>
 									La solution choisie à était de placer le capteur sous la voiture, et de capter le passage du pied, un passage signifi l'ouverture du hayon, deux passages signifi la fermeture du hayon.</br>

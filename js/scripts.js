@@ -1,5 +1,5 @@
 $(function() {
-   $('#bMenu').click(function() {
+   /*$('#bMenu').click(function() {
      alert("lol");
 
     if(clicked == false)
@@ -43,7 +43,7 @@ $(function() {
     }
 
    	});
-    
+    */
    $('#choixMode').click(function() {
      $('html,body').animate({scrollTop: $("#mode").offset().top}, 'slow'      );
    });
@@ -61,10 +61,14 @@ $(function() {
    });
 
       var data = [
-                'images/BlueNote1.png',
-                'images/Othelo.png',
-                'images/Capteur.png',
-                'images/mode.jpg',
+                'images/TheRing1M.png',
+                'images/TheRing2M.png',
+                'images/TheRing3M.png',
+                'images/TheRing4M.png',
+                'images/TheRing5M.png',
+                'images/TheRing6M.png',
+                'images/TheRing7M.png',
+                'images/TheRing8M.png'
             ];
             
             /* Call the slider plugin with your table */
