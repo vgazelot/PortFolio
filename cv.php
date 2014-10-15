@@ -91,7 +91,7 @@
       			<ul class="UneLigne" >
         			<li class ="dateCV">2009 :</li>
         			<li class ="InfoCV" ><ul>
-                            				<li>Stage d'une semaine dans un sallon de coiffure</li>
+                            				<li>Stage d'une semaine dans un salon de coiffure</li>
                             			</ul>
         			</li>
       			</ul>
